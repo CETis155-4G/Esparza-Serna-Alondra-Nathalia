@@ -19,7 +19,7 @@ body{
     letter-spacing: 1px;
 }
 
-h1 { color: rgb(182, 112, 248); 
+h1 { color: rgba(182, 112, 248, 0.562); 
 
 }
 footer{
@@ -55,33 +55,40 @@ h1 {
 
 p{
     font-family: 'open sans';
-    font-size: 13px;
+    font-size: 18px;
     color: rgb(0, 0, 0);
     line-height: 18px;
     margin-bottom: 20px;
     }
 h3{
     font-family: 'Open Sans';
-    font-size: 15px;
+    font-size: 18px;
     color: rgb(78, 71, 179);
     text-shadow: 10px 0px 7px #525151;
     }
 h2{
     font-family: 'Open Sans';
-    font-size: 15px;
+    font-size: 18px;
     color: rgb(235, 146, 140);
     }
 h4{
     font-family: 'Open Sans';
-    font-size: 15px;
+    font-size: 18px;
     color: rgb(228, 91, 86);
     text-shadow: 10px 0px 7px #525151;
     }
 
+h5{
+    font-family: 'Open Sans';
+    font-size: 18px;
+    color: rgb(37, 65, 190);
+    text-shadow: 10px 0px 7px #525151;
+    }
+    
 .navbar a {
 	color: #ffffff;
 	display: inline-block;
-	padding: 20px;
+	padding: 10px;
 	width: 100%;
 	text-align: center;
 	color: #000;
@@ -90,7 +97,7 @@ h4{
 }
 
 .navbar a:hover {
-	background: #9976c7;
+	background: #c4a4ee;
 	color: rgb(0, 0, 0);
 	text-decoration: none;
 	
@@ -104,7 +111,7 @@ h4{
 	justify-content: space-between;
 }
 .contenedor-imagen {
-	height: 70vh;
+	height: 60vh;
 	
 }
 
@@ -114,4 +121,36 @@ h4{
 	vertical-align: top;
 	object-fit: cover;
 	object-position: 0 bottom;
+}
+details {
+
+	color: #ffffff;
+	display: inline-block;
+	padding: 8px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	transition: .3s ease-out all;
+	position: sticky;
+}
+
+details {
+    background-color: #edcfee; /* color de fondo cuando no está desplegado */
+}
+
+details[open] {
+    background: #ffffff67; /* color de fondo cuando está desplegado */
+}
+
+button{
+    font-size: 18px;
+    font-family: chicago;
+    border: none;
+    color: #ffffff;
+	padding: 8px;
+	width: 100%;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	transition: .3s ease-out all;
+	position: sticky;
 }
