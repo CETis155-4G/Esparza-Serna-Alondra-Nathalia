@@ -1,0 +1,92 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#283244, #274e7a);
+}
+.formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 70px;
+    transform: translate(-50%, -50%);
+    background: rgba(1, 13, 24, 0.616);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(5, 94, 189, 0.637);
+    border-radius: 10px;
+}
+.formulario h1{
+    margin: 0 0 30px;
+    padding: 0;
+    color: rgba(253, 253, 253, 0.911);
+    text-shadow: #0b6ad6;
+    text-align: center;
+}
+.contraseña{
+    margin: 0 0 15px;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.699);
+    text-shadow: #0b6ad6;
+    text-align: left;
+}
+
+.correo{
+    margin: 0 0 15px;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.699);
+    text-shadow: #0b6ad6;
+    text-align: left;
+}
+.telefono{
+    margin: 0 0 15px;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.699);
+    text-shadow: #0b6ad6;
+    text-align: left;
+}
+.Apaterno{
+    margin: 0 0 15px;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.699);
+    text-shadow: #0b6ad6;
+    text-align: left;
+}
+.Amaterno{
+    margin: 0 0 15px;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.699);
+    text-shadow: #0b6ad6;
+    text-align: left;
+}
+.Nombre{
+    margin: 0 0 15px;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.699);
+    text-shadow: #0b6ad6;
+    text-align: left;
+}
+.Nacimiento{
+    margin: 0 0 15px;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.699);
+    text-shadow: #0b6ad6;
+    text-align: left;
+}
+.pais{
+    margin: 0 0 15px;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.699);
+    text-shadow: #0b6ad6;
+    text-align: left;
+}
+.estado{
+    margin: 0 0 15px;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.699);
+    text-shadow: #0b6ad6;
+    text-align: left;
+}
