@@ -1,158 +1,88 @@
-html{
-    height: 100%;
-}
-body{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    background: linear-gradient(#283244, #274e7a);
-}
-.contMain{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 400px;
-    padding: 75px;
-    transform: translate(-50%, -50%);
-    background: rgba(1, 13, 24, 0.616);
-    box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(5, 94, 189, 0.637);
-    border-radius: 15px;
-}
-.contMain h2{
-    margin: 0 0 30px;
-    padding: 0;
-    color: rgba(255, 255, 255, 0.699);
-    text-shadow: #0b6ad6;
-    text-align: center;
-}
-.contMain .contUser{
-    position: relative;
-}
-
-.contMain .contUser{
-    text-align: center;
-    width: 100%;
-    padding: 20px 0;
-    font-size: 16px;
-    color: #fff;
-    margin-bottom: 30px;
-    border: none;
-    border-bottom: 0.3px solid;
-    outline: none;
-    background: transparent;
-}
-
-.contMain .contUser label{
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #fff;
-    pointer-events: none;
-    transition: 0.5s;
-}
-.contMain form a {
-    position: relative;
-    display: inline-block;
-    padding: 10px 20px;
-    color: aqua;
-    text-decoration: none;
-    text-transform: uppercase;
-    overflow: hidden;
-    transition: .5s;
-    margin-top: 40px;
-    letter-spacing: 4px;
-    text-align: center;
-}
-.contMain .contUser input:focus — label,
-.contMain .contUser input:valid — label{
-    top: -20px;
-    left: 0;
-    color: aqua;
-    font-size: 12px;
-}
-
-.contMain a:hover{
-    position: center;
-    background: rgba(159, 114, 238, 0.192);
-    color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 5px #425dc980, 0 0 0 25px #425dc980,  0 0 0 100px #425dc980;
-}
-.contMain a span{
-    position:absolute;
-    display: block;
-}
-
-.contMain a span:nth-child(1){
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent,#425dc980);
-    animation: btn-anim1 1s linear infinite;
-}
-
-@keyframes btn-anim1 {
-    0%{
-        left: -100%;
+* {
+    box-sizing: border-box;/*crear caja*/
     }
-    50%,100%{
-        left: 100%;
+    
+    *:focus {
+        outline: none;
     }
-}
-
-.contMain a span:nth-child(2){
-    top: -100%;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg, transparent,#425dc980);
-    animation: btn-anim2 1s linear infinite;
-    animation-delay: .25s;
-}
-@keyframes btn-anim2 {
-    0%{
-        top: -100%;
+    body {
+    font-family: Arial;/*fuente*/
+    background-color: #f1ebf3d2;
+    padding: 50px;/**/
     }
-    50%,100%{
-        top: 100%;
+    /*importar clase*/
+    .login {
+    margin: 20px auto;/*margen*/
+    width: 500px;/*ancho*/
     }
-}
-
-.contMain a span:nth-child(3){
-    top: -100%;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(270deg, transparent,#425dc980);
-    animation: btn-anim3 1s linear infinite;
-    animation-delay: 0.5s;
-}
-@keyframes btn-anim3 {
-    0%{
-        right: -100%;
+    /*importar clase*/
+    .login-screen {
+        position: absolute;/*posicion*/
+        top: 50%;/*porcentaje hacia arriba*/
+        left: 50%;/*porcentaje hacia izquierda*/
+        width: 400px;/*tamaño de ancho*/
+        padding: 75px;/*relleno*/
+        transform: translate(-50%, -50%);/*eje*/
+        background: rgba(192, 192, 192, 0.473);/*fondo*/
+        box-sizing: border-box;/*tamaño de caja*/
+        box-shadow: 0 15px 25px rgba(231, 37, 231, 0.637);/*sombra de texto*/
+        border-radius: 15px;/*radio del borde*/
     }
-    50%,100%{
-        right: 100%;
+    /*importar clase*/
+    .app-title {
+    text-align: center;/*alineacion del texto*/
+    color: #777;
     }
-}
-.contMain a span:nth-child(4){
-    top: -100%;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(360deg, transparent,#425dc980);
-    animation: btn-anim4 1s linear infinite;
-    animation-delay: 0.75s;
-}
-@keyframes btn-anim4 {
-    0%{
-        bottom: -100%;
+    /*importar clase*/
+    .login-form {
+    text-align: center;/*alineacion del texto*/
     }
-    50%,100%{
-        bottom: 100%;
+    /*importar clase*/
+    .control-group {
+    margin-bottom: 10px;
     }
-}
+    /*importar clase*/
+    input {
+    text-align: center;/*alineacion de texto*/
+    background-color: #ECF0F1;/*color de fondo*/
+    border: 2px solid transparent;/*borde*/
+    border-radius: 3px;/*radio del borde*/
+    font-size: 16px;/*tamaño de letra*/
+    font-weight: 200;
+    padding: 20px 0;/*relleno*/
+    width: 250px;/*ancho*/
+    transition: border .5s;
+    }
+    /*importar clase*/
+    input:focus {
+    border: 2px solid #000000;
+    box-shadow: none;
+    }
+    /*importar clase*/
+    .btn {
+      border: 2px solid transparent;/*borde*/
+      background: #5f89a5;/*color de fondo*/
+      color: #ffffff;
+      font-size: 16px;/*tamaño de fuente*/
+      line-height: 25px;/*relleno*/
+      padding: 10px 0;/**/
+      text-decoration: none;
+      text-shadow: none;
+      border-radius: 3px;/*radio del borde*/
+      box-shadow: none;
+      transition: 0.25s;/*transicion de .25s*/
+      display: block;
+      width: 250px;
+      margin: 0 auto;
+    }
+    /*importar clase*/
+    .btn:hover {
+      background-color: #2980B9;/*color de fondo*/
+    }
+    /*importar clase*/
+    .login-link {
+      font-size: 12px;/*tamaño de fuente*/
+      color: #444;
+      display: block;
+      margin-top: 12px;/*margen*/
+    }

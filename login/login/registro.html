@@ -1,40 +1,70 @@
+<!--crear archivo html-->
 <!DOCTYPE html>
 <html lang="en">
+<!--abrir head-->
 <head>
     <meta charset="UTF-8">
+    <!--titulo de la pagina-->
     <title>REGISTRO</title>
+    <!--conexion con css-->
     <link href="registro.css"rel="stylesheet"type="text/css">
 </head>
+<!--abrir body-->
 <body>
+    <!--crear formulario-->
     <div class="formulario">
         <h1>
             Registrarse
         </h1>
+        <!--metodo-->
         <form method="post">
+            <!--craer clase para nombres-->
+            <div class="Nombre">
+                <label>Nombre(s)</label>
+                <br>
+                <input type="text" value="" required class="inpnom"></br>
+            </div>
+            <!--crear clase para ap paterno-->
+            <div class="Apaterno">
+                <label>Apellido paterno</label>
+                <br><input type="text" value="" required class="inpapat"></br>
+            </div>
+            <!--clase para ap materno-->
+            <div class="Amaterno">
+                <label>Apellido materno</label>
+                <br><input type="text" value="" required class="inpamat"></br>
+            </div>
+            <!--crear clase para fecha de nacimiento-->
+            <div class="Nacimiento">
+                <label>Fecha de nacimiento</label>
+                <!--desplegar un calendario al usuario-->
+                <br><input type="date" value="" min="" max="" required class="inpdate"></br>
+            </div>
+            <!--crear clase para correo electronico-->
             <div class="correo">
                 <label>Correo electronico</label>
                 <br><input type="email"  value="" required class="inpcorr"></br>
             </div>
-            <div class="correo">
-                <label>Confirma tu correo electronico</label>
-                <br><input type="email" value="" required class="conficorr"></br>
-            </div>
+            <!--crear clase para telefono-->
             <div class="telefono">
                 <label>Numero telefonico</label>
                 <br><input type="tel" value="" required class="inptel"></br>
             </div>
+            <!--crear clase para contraseña-->
             <div class="contraseña">
                 <label>Crea una contraseña</label>
-                <br><input type="password"  
-                value="" size="10" maxlength="10" minlength="10" required class="inpcont"></br>
+                <br><input type="password"      
+                value="" size="20" maxlength="20" minlength="20" required class="inpcont"></br> <!--maximo de 20 caracteres-->
             </div>
+            <!--clase pais-->
             <div class="pais">
             <label for="name">Pais:</label>
+        <!--desplegar opcion de pais al usuario-->
          <p><select>
             <option>Mexico</option>
          </select></p>
         </form></div>
-
+        <!--desplegar opciones de estados al usuario-->
          <div class="estado">
         <label for="name">Estado:</label>
          </p><select> 
@@ -72,33 +102,12 @@
             <option> Zacatecas </option>
         </select></p>
         </div>
-   
-            <div class="Apaterno">
-                <label>Apellido paterno</label>
-                <br><input type="text" value="" required class="inpapat"></br>
-            </div>
-            <div class="Amaterno">
-                <label>Apellido materno</label>
-                <br><input type="text" value="" required class="inpamat"></br>
-            </div>
-            <div class="Nombre">
-                <label>Nombre(s)</label>
-                <br><input type="text" value="" required class="inpnom"></br>
-            </div>
-
-            <div class="Nacimiento">
-                <label>Fecha de nacimiento</label>
-                <br><input type="date" value="" min="" max="" required class="inpdate"></br>
-            </div>
             <center><a href="">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                CREAR CUENTA
-            </a></center>
+                <!--boton para redireccionar al menu-->
+                <a class="boton" href="C:/Users/alond/Documents/login/inicio.html">Ingresar</a>
         </form>
 
     
 </body>
+<!--cerrar html-->
 </html>
