@@ -1,0 +1,159 @@
+html{
+    font-size: 15px;/*tamaño de letra*/
+    font-family: "Open Sans", sans-serif;/*fuente*/
+    
+}
+h1{
+    font-size: 60px;/*tamaño de letra*/
+    text-align: center;/*alineacion de texto*/
+}
+p,li{
+    font-size: 16px;/*tamaño de letra*/
+    line-height: 1;
+    letter-spacing: 1px;/*espacio entre letras*/
+}
+
+body{
+    font-size: 15px;/*tamaño de letra*/
+    line-height: 1;
+    letter-spacing: 1px;/*espacio entre letras*/
+}
+
+h1 {  
+    color: rgba(182, 112, 248, 0.562); /*color del h1*/
+}
+footer{
+    color: burlywood;/*color del footer*/
+    width: 950px;/*ubicacion*/
+    text-align: right;/*alineacion del texto*/
+}
+body {
+    width: 700px;/*tamaño del body*/
+    margin: 0 auto;/*margen*/
+    background-color: white;/*color de fondo*/
+    padding: 0 20px 20px 20px;
+    border-style: double;
+    border-color: rgb(34, 101, 133);/*color del borde*/
+}
+
+html {
+    background-color: #d5bfeb;/*color de fondo del html*/
+}
+      
+body {
+    width: 960px;/*tamaño del body*/
+    margin: 0 auto;/*margen*/
+    background-color: #f5efe6;/*color de fondo del body*/
+    padding: 0 20px 20px 20px;/**/
+}
+h1 {
+    margin: 0;/*margen*/
+    padding: 20px 0;/**/
+    color: rgb(180, 123, 233);/*color del h1*/
+    text-shadow: 3px 3px 1px rgb(41, 36, 41);/**/
+}
+
+p{
+    font-family: 'open sans';/*fuente*/
+    font-size: 18px;/*tamaño de letra*/
+    color: rgb(0, 0, 0);/*color*/
+    line-height: 18px;/**/
+    margin-bottom: 20px;/*margen*/
+    }
+
+h2{
+    font-family: 'Open Sans';/*fuente h2*/
+    font-size: 18px;/*tamaño de letra*/
+    color: rgb(235, 146, 140);/*color*/
+    }
+
+h3{
+    font-family: 'Open Sans';/*fuente h3*/
+    font-size: 18px;/*tamaño de letra*/
+    color: rgb(78, 71, 179);/*color*/
+    text-shadow: 10px 0px 7px #525151;/*sombra del texto*/
+    }
+
+h4{
+    font-family: 'Open Sans';/*fuente h4*/
+    font-size: 18px;/*tamaño de letra*/
+    color: rgb(228, 91, 86);/*color*/
+    text-shadow: 10px 0px 7px #525151;/*sombra de texto*/
+    }
+
+h5{
+    font-family: 'Open Sans';/*fuente h5*/
+    font-size: 18px;/*tamaño de letra*/
+    color: rgb(37, 65, 190);/*color del h5*/
+    text-shadow: 10px 0px 7px #525151;/*sombra para el texto*/
+    }
+    
+.navbar a {
+	color: #ffffff;
+	display: inline-block;/**/
+	padding: 10px;/**/
+	width: 100%;/*tamaño*/
+	text-align: center;/*alineacion*/
+	color: #000;/*color*/
+	transition: .3s ease-out all;/*transicion de .3s*/
+	position: sticky;
+}
+
+.navbar a:hover {
+	background: #c4a4ee;/*fondo*/
+	color: rgb(0, 0, 0);/*color de letra*/
+	text-decoration: none;/*sin decoracion de texto*/
+	
+}
+
+.contenedor {
+	max-width: 1000px;/*tamaño maximo*/
+	width: 90%;/*tamaño*/
+	margin: auto;
+	display: flex;
+	justify-content: space-between;/*justificado*/
+}
+.contenedor-imagen {
+	height: 60vh;/*altura*/
+	
+}
+
+.contenedor-imagen img {
+	width: 100%;/*ancho*/
+	height: 100%;/*altura*/
+	vertical-align: top;/*alineacion vertical*/
+	object-fit: cover;
+	object-position: 0 bottom;
+}
+details {
+	color: #ffffff;
+	display: inline-block;
+	padding: 8px;
+	width: 100%;
+	text-align: center;/*alinecion del texto*/
+	color: #000;
+	transition: .3s ease-out all;
+	position: sticky;
+}
+
+details {
+    background-color: #edcfee; /* color de fondo cuando no está desplegado */
+}
+
+details[open] {
+    background: #ffffff67; /* color de fondo cuando está desplegado */
+}
+
+/*Boton*/
+button{
+    font-size: 18px;/*tamaño*/
+    font-family: chicago;/*fuente*/
+    border: none;/*sin bordes*/
+    color: #ffffff;
+	padding: 8px;
+	width: 100%;/*tamaño*/
+	text-align: center;/*alineacion*/
+	color: rgb(0, 0, 0);
+	transition: .3s ease-out all;
+	position: sticky;
+}
